@@ -37,7 +37,7 @@ function Qrcode() {
       </Button>
       {qr && (
         <>
-          <img src={qr} />
+          <img src={qr} alt="qr" />
           <Button
             variant="contained"
             color="success"
